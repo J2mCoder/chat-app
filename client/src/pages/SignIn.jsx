@@ -50,7 +50,7 @@ export default function SingIn() {
       </div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="grid grid-cols-1 md:grid-cols-7 ">
-          <div className="h-screen relative flex flex-col justify-center p-5 items-center text-white col-span-2 md:col-span-3">
+          <div className="h-screen relative flex flex-col justify-center p-5 items-center text-white col-span-2 md:col-span-3 lg:col-span-2">
             <div className="absolute top-7 right-5 group">
               <Link
                 to="/"
@@ -150,7 +150,7 @@ export default function SingIn() {
               </div>
             </div>
           </div>
-          <div className="col-span-5 md:col-span-4 bg-blue-950 h-screen w-full">
+          <div className="col-span-5 md:col-span-4 lg:col-span-5 bg-blue-950 h-screen w-full">
             <img src={ImgLogin} alt="" className="h-full w-full" />
           </div>
         </div>
